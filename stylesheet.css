@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+html {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: -20px;
+    left: 400px;
+}
+
+#table {
+    position: fixed;
+    display: none;
+    z-index: 1000;
+}
+
+#table, #legend {
+    border: solid 1px;
+    border-radius: 3px;
+    border-spacing: 0;
+    text-align: center;
+    font-size: small;
+}
+
+#legend {
+    position: absolute;
+    top: 300px;
+    left: 864px;
+}
+
+#table th {
+    background-color: lightgrey;
+}
+
+#table td {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+#map {
+    position: relative;
+    width: 900px;
+    height: 768px;
+    background-color: white;
+}
+
+th, td {
+    padding: 0.2em;
+}

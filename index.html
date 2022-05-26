@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>United States Level</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <div id="map">
+      <h1>US Level <span id="level">0</span></h1>
+      <table id="legend">
+        <tr class="select" data-level="5"><td>Level: 5</td><td class="select">Lived there</td></tr>
+        <tr class="select" data-level="4"><td>Level: 4</td><td class="select">Stayed there</td></tr>
+        <tr class="select" data-level="3"><td>Level: 3</td><td class="select">Visited there</td></tr>
+        <tr class="select" data-level="2"><td>Level: 2</td><td class="select">Alighted there</td></tr>
+        <tr class="select" data-level="1"><td>Level: 1</td><td class="select">Passed there</td></tr>
+        <tr class="select" data-level="0"><td>Level: 0</td><td class="select">Never been there</td></tr>
+      </table>
+      <table id="table">
+        <tr>
+          <th></th>
+        </tr>
+        <tr><td class="select" data-level="5">Lived there</td></tr>
+        <tr><td class="select" data-level="4">Stayed there</td></tr>
+        <tr><td class="select" data-level="3">Visited there</td></tr>
+        <tr><td class="select" data-level="2">Alighted there</td></tr>
+        <tr><td class="select" data-level="1">Passed there</td></tr>
+        <tr><td class="select" data-level="0">Never been there</td></tr>
+      </table>
+    </div>
+    
+    <script src="lib/us-map-svg.js"></script>
+    <script src="lib/html2canvas.min.js"></script>
+    <script src="lib/raphael-min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>
